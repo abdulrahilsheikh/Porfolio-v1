@@ -1,8 +1,8 @@
 import { Environment, OrbitControls } from "@react-three/drei";
 import { Canvas, useFrame, useLoader, useThree } from "@react-three/fiber";
-import { Suspense, useRef, useState } from "react";
+import { Suspense } from "react";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
-
+// import * as samuraiModel from "../../../public/models/samurai/scene.gltf";
 import { Vector3 } from "three";
 
 // import samuraiModel from "../../../public/models/samurai/scene.gltf";
@@ -10,7 +10,9 @@ import { Vector3 } from "three";
 const Model = () => {
   const model = useLoader(
     GLTFLoader,
-    "../../../public/models/samurai/scene.gltf"
+    `../../../${
+      import.meta.env.DEV ? "public/" : "Portfolio-v1/"
+    }models/samurai/scene.gltf`
   );
   const { mouse } = useThree();
 
