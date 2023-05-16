@@ -1,10 +1,14 @@
 .alphabetAnimation {
   display: inline-block;
-  animation: randomRotate 5s infinite;
+  // animation: randomRotate 5s infinite;
+  animation: randomRotate 1s linear infinite;
 
   @keyframes randomRotate {
-    50% {
-      transform: rotate(180deg);
+    33% {
+      transform: rotate(15deg);
+    }
+    66% {
+      transform: rotate(-15deg);
     }
   }
 }

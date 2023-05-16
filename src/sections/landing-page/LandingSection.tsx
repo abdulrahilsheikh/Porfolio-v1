@@ -65,9 +65,10 @@ const LandingSection = ({}: Props) => {
         <AnimatedWind />
         <div className=" p-6 rounded-lg shadow-lg max-w-xl bg-[#fdfcdc] backdrop-blur-2xl">
           <h1 className="font-bold text-6xl text-[#4a4e69] w-fit">
-            <span>Hi STRANG</span>
-            <div className={styles.alphabetAnimation}>E</div>
-            <span>R</span>
+            <span>Hi STRANGER</span>
+            {/* <div className={styles.alphabetAnimation}>E</div> */}
+            {/* <span>R ✋</span> */}
+            <div className={styles.alphabetAnimation}>✋</div>
           </h1>
           <div className={"font-bold text-3xl mt-2 text-[#c9ada7]"}>
             My self Rahil Sheikh
