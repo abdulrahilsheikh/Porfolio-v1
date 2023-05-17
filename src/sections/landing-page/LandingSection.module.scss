@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Hachi+Maru+Pop&family=IBM+Plex+Mono&family=Montserrat+Alternates&family=Poppins:ital,wght@1,300&family=Source+Code+Pro:ital,wght@0,400;1,300&family=VT323&display=swap');
+
 .alphabetAnimation {
   display: inline-block;
   // animation: randomRotate 5s infinite;
@@ -7,6 +9,7 @@
     33% {
       transform: rotate(15deg);
     }
+
     66% {
       transform: rotate(-15deg);
     }
@@ -27,6 +30,7 @@
 
 .svgContainer {
   pointer-events: none;
+
   svg {
     width: 100%;
     height: 100%;
@@ -50,14 +54,20 @@
     0% {
       stroke-dashoffset: 800;
     }
+
     10% {
       stroke-dasharray: 400;
       stroke-dashoffset: 0;
     }
+
     20%,
     100% {
       stroke-dasharray: 800;
       stroke-dashoffset: -800;
     }
   }
+}
+
+.fontsSection {
+  font-family: 'Source Code Pro', monospace;
 }

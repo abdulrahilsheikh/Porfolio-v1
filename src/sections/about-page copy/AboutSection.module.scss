@@ -115,3 +115,9 @@ $border-color: #293241;
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
 }
+
+.scrollMagicDefault {
+  &>* {
+    padding-bottom: 0 !important;
+  }
+}
