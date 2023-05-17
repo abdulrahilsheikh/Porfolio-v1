@@ -1,15 +1,18 @@
 import "./App.css";
-import AboutSection from "./sections/about-page copy/AboutSection";
+import AboutMe from "./sections/about-me/AboutMe";
+import JourneySection from "./sections/journey-page/JourneySection";
 import LandingSection from "./sections/landing-page/LandingSection";
+import SkillsSection from "./sections/skills-page/SkillsSection";
 
 function App() {
-	return (
-		<>
-			<LandingSection />
-			<AboutSection />
-			<div className="h-screen bg-red-200"></div>
-		</>
-	);
+  return (
+    <>
+      <LandingSection />
+      <AboutMe />
+      <SkillsSection />
+      <JourneySection />
+    </>
+  );
 }
 
 export default App;

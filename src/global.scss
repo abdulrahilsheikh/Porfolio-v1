@@ -1,0 +1,10 @@
+@mixin JumpAnimation {
+  display: inline-block;
+  animation: subtleJump 3s infinite;
+
+  @keyframes subtleJump {
+    50% {
+      transform: translateY(-15px);
+    }
+  }
+}
