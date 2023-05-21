@@ -1,7 +1,7 @@
 {
     "projects": [
         {
-            "img": "../../../public/ReactAdminDashboard.png",
+            "img": "ReactAdminDashboard.png",
             "title": "React Admin Dashboard",
             "content": "This is a admin pannel made in React.Js and Tailwind CSS",
             "tags": [
@@ -13,7 +13,7 @@
             "linkToSite": "https://abdulrahilsheikh.github.io/React-cms-website-v1/"
         },
         {
-            "img": "../../../public/SamuraiPortfolio.png",
+            "img": "SamuraiPortfolio.png",
             "title": "Samurai Style Portfolio",
             "content": "This is my Creative Portfolio",
             "tags": [
