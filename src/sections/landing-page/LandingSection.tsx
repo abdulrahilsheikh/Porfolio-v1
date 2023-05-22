@@ -58,23 +58,21 @@ const AnimatedWind = () => {
 
 const LandingSection = ({}: Props) => {
 	return (
-		// <div className="flex items-center bg-[#293241]">
-		<div className="flex items-center bg-[#fff3b0]">
-			<div className="flex-1 flex flex-col items-center justify-center ">
+		<div className="z-10 flex items-center bg-[#fff3b0]">
+			<div className="  p-2 z-10 sm:static absolute	w-full  flex-1 flex flex-col items-center justify-center ">
 				<AnimatedWind />
-				<div className=" p-6 rounded-lg shadow-lg max-w-xl bg-[#fdfcdc] backdrop-blur-2xl">
-					<h1 className="font-bold text-6xl text-[#4a4e69] w-fit">
+				<div className="p-4 md:p-6 sm:p-4 rounded-lg shadow-lg max-w-xl bg-[#fdfcdc] sm:backdrop-blur-2xl bg-opacity-50 sm:bg-opacity-100 ">
+					<h1 className="font-bold sm:text-4xl md:text-6xl  text-[#4a4e69]  w-fit">
 						<span>Hi STRANGER</span>
-						{/* <div className={styles.alphabetAnimation}>E</div> */}
-						{/* <span>R ✋</span> */}
+
 						<div className={styles.alphabetAnimation}>✋</div>
 					</h1>
 					<div
-						className={`${styles.fontsSection}  text-3xl mt-2 text-[#c9ada7]`}>
+						className={`${styles.fontsSection}  md:text-3xl sm:text-xl  mt-2 sm:text-[# c9ada7]`}>
 						My self Rahil Sheikh
 					</div>
 					<div
-						className={`${styles.fontsSection}	 text-3xl mt-2 text-[#c9ada7] `}>
+						className={`${styles.fontsSection}	 md:text-3xl sm:text-xl    mt-2 sm:text-[# c9ada7] `}>
 						Im a front-end developer. Specialized in{" "}
 						<div
 							data-underline-color={"#4a4e69"}
@@ -85,14 +83,14 @@ const LandingSection = ({}: Props) => {
 						<div className={styles.nameJumpAnimation}>Next.Js</div>
 					</div>
 					<div
-						className={`${styles.fontsSection} text-3xl mt-2 text-[#c9ada7]`}>
+						className={`${styles.fontsSection} md:text-3xl sm:text-xl   mt-2 md:text-[#c9ada7]`}>
 						Currently working as a Associate Software Developer
 					</div>
 				</div>
 			</div>
 			<div
 				className={
-					"relative w-[50%] h-screen pt-10 flex items-start justify-center"
+					"relative w-full sm:w-[50%] h-screen pt-10 flex items-start justify-center"
 				}>
 				<Samurai />
 				<div className="w-[50%] rounded-full aspect-square bg-red-600"></div>

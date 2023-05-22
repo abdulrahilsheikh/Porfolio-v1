@@ -1,9 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Arimo&family=Hachi+Maru+Pop&family=IBM+Plex+Mono&family=Montserrat+Alternates&family=Poppins:ital,wght@1,300&family=Source+Code+Pro:ital,wght@0,400;1,300&family=VT323&display=swap");
 
 @import "../../global.scss";
+
 .nameJumpAnimation {
   @include JumpAnimation;
 }
+
 .mask1 {
   -webkit-mask-image: url("../../assets/brush-stroke-banner-background.png");
   mask-image: url("../../assets/brush-stroke-banner-background.png");
@@ -14,10 +16,14 @@
 }
 
 .cardsContainer {
-  & > *:nth-child(odd) {
-    align-self: flex-start;
-  }
-  & > *:nth-child(even) {
-    align-self: flex-end;
+  @media (min-width: 768px) {
+
+    &>*:nth-child(odd) {
+      align-self: flex-start;
+    }
+
+    &>*:nth-child(even) {
+      align-self: flex-end;
+    }
   }
 }

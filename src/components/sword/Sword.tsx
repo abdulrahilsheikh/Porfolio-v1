@@ -12,16 +12,6 @@ const Model = () => {
 			import.meta.env.DEV ? "public/" : "Portfolio-v1/"
 		}models/handpainted_sword/scene.gltf`
 	);
-	const { mouse } = useThree();
-
-	// useFrame((data) => {
-	// 	const vect = new Vector3();
-	// 	data.camera.position.lerp(
-	// 		vect.set(-mouse.x * 0.05, -mouse.y * 0.25, 0),
-	// 		0.025
-	// 	);
-	// 	data.camera.lookAt(0, 50, 0);
-	// });
 
 	return (
 		<>
